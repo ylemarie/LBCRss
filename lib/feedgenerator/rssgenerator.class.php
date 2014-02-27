@@ -8,7 +8,7 @@
  * @package    FeedGenerator
  *
  */
-class RSSGenerator implements generator{
+class RSSGenerator implements generatorLBC{
 
     private $_dom, $_channel, $_rssNode;
     private $channelRequired=array('title', 'link', 'description'),
