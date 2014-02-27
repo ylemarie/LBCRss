@@ -8,7 +8,7 @@
  * @package FeedGenerator
  *
  */
- class AtomGenerator implements generator {
+ class AtomGenerator implements generatorLBC {
  	private $_dom, $_channel, $_atomNode;
  	private $channelRequired= array (
  	'title',
